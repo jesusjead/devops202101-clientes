@@ -160,7 +160,7 @@ stage('Docker Build') {
           }
           
           
-          stage('Deploy to GKE for CERT Emvironment') {        
+          stage('Deploy to GKE for QA Emvironment') {        
              agent {
                 docker { 
                     image 'google/cloud-sdk:latest' 
